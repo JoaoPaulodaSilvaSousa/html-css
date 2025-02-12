@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas </h1>
+    <p>Muda o tamnho do navegador aí, ou tenta entrar por outro dispositivo</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="Imagens/fotog.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzir Áudio</h1>
+    <p>Toca aí</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.mp3" type="audio/ogg">
+        <source src="midia/happy-mistake.mp3" type="audio/wav">
+        <p>Infelizmentente seu nacegador nao roda. <a href="midia/happy-mistake.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</html>

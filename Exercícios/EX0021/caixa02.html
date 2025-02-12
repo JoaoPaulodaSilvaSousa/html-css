@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        main {
+            background-color: rgb(202, 44, 44);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 30px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+
+        nav {
+            background-color: lightcyan;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.219);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        article{
+            background-color: azure;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(231, 231, 43);
+        }
+
+        footer {
+            background-color: blue;
+            color: cadetblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+footer > p {
+    margin: 4px;
+}
+
+h1 {
+    box-shadow: inset 1px 1px 10px black;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;border-radius: 50%;
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+            <a href="#" >Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+
+        </section>
+        <section id="noticias">
+            <p>Esportes e Tecnologias</p>
+        </section>
+        <article>
+            <h2>Nóticias sobre o Brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolore praesentium dolorem quam, consectetur omnis. Alias nostrum, consequuntur doloribus repellendus consequatur molestias excepturi quisquam quidem nemo optio consectetur? Alias, nemo.</p>
+            <aside>
+                <p>Artigo escrito Por José </p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo JP</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
