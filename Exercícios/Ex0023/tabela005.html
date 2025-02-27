@@ -29,8 +29,25 @@
         tr.destaque {
             background-color: lime;
         }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
     </style>
     <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -50,7 +67,7 @@
             <td>28</td>
             <td>Programador</td>
         </tr>
-        <tr class="destaque">
+        <tr>
             <td>Gustavo</td>
             <td>M</td>
             <td>42</td>
